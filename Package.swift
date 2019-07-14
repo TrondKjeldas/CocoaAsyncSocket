@@ -1,4 +1,4 @@
-// swift-tools-version:4.2
+// swift-tools-version:5.1
 import PackageDescription
 
 let package = Package(
@@ -9,7 +9,8 @@ let package = Package(
     targets: [
         .target(
             name: "CocoaAsyncSocket",
-            path: "Source/GCD"
+            path: "Source/GCD",
+            publicHeadersPath: "Source"
         )
     ]
 )
