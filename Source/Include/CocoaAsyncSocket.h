@@ -14,5 +14,5 @@ FOUNDATION_EXPORT double cocoaAsyncSocketVersionNumber;
 //! Project version string for CocoaAsyncSocket.
 FOUNDATION_EXPORT const unsigned char cocoaAsyncSocketVersionString[];
 
-#import <CocoaAsyncSocket/Source/CocoaAsyncSocket/GCDAsyncSocket.h>
-#import <CocoaAsyncSocket/Source/CocoaAsyncSocket/GCDAsyncUdpSocket.h>
+#import <../CocoaAsyncSocket/GCDAsyncSocket.h>
+#import <../CocoaAsyncSocket/GCDAsyncUdpSocket.h>
